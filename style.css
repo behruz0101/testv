@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+.az {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px 30px;
+    list-style: none;
+    height: 100px;
+    font-family: unset;
+    font-weight: 400;
+}
+.az ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    width: 25%;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(82, 79, 79);
+}
+.az h1 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: cornflowerblue*/
+    /*height: calc(100vh-90px);*/
+    width: 100%;
+    padding: 0 10%;
+    line-height: 20px;
+}
+main .qw {
+    width: 50%;
+    height: 60%;
+    /*background-color : rgb (12, 12, 11); */
+    padding: 6%;
+    line-height: 20px;
+}
+main h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 30%;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin-bottom: 10px;
+
+}
+main p {
+    width: 85%;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+main a {
+    padding: 7px 30px;
+    border-color: greenyellow;
+    color: #fff;
+    border-radius: 90px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+main .qwe {
+    width: 50%;
+    height: 50%;
+}
+main img {
+    width: 100%;
+    height: 60vh;
+}
